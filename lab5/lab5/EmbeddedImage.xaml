@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local12="clr-namespace:lab5"
+             x:Class="lab5.EmbeddedImage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Embeded Images !"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Image 
+                Source="{local12:ImageResource
+                lab5.prueba.jpg}"
+                />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
